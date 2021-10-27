@@ -30,6 +30,34 @@ button {
     padding: 8pt 12pt;
     background-color: white;
     box-shadow: 0pt 2pt 4pt rgba(0, 0, 0, 0.2);
+
+    transition-duration: 300ms;
+}
+
+.button-med {
+    font-size: auto;
+    border-radius: 240pt;
+}
+
+.button-small {
+    font-size: 8pt;
+    border-radius: 240pt;
+}
+
+.button-medlarge {
+    font-size: 16pt;
+    border-radius: 240pt;
+}
+
+.button-large {
+    font-size: 24pt;
+    border-radius: 240pt;
+}
+
+.button:hover {
+    background-color: tomato;
+    
+    color: white;
 }
 
 img {
